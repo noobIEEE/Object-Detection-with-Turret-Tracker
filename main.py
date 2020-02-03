@@ -83,7 +83,7 @@ pos = copy.copy(c_x)
 else:
 pass
 
-# show capture
+# show capture & closing
 if conf["show_video"]:
 cv2.imshow("Security Feed", frame)
 cv2.imshow("Security Feed1", thresh)
